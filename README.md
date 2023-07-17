@@ -1,10 +1,7 @@
 # Fourier-Neural-Operator
 
 ### Aim of this project ### 
-This has been a smaller scientific group project where we were given the task to implement ...
-
-
-Fourier Neural Operator For Parametric Partial Differential Equations
+This has been a smaller scientific group project about investigating the resolution invariance of a fourier neural opeartor (FNO) predicting Navier-Stokes dynamics. The project is based on the paper [Fourier Neural Operator For Parametric Partial Differential Equations](https://arxiv.org/pdf/2010.08895.pdf) by Zongyi Li et al. (2021)
 
 
 
