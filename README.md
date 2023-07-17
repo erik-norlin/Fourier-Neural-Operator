@@ -5,7 +5,7 @@ This has been a smaller scientific group project about investigating the resolut
 
 
 
-The original code for this paper can be found on [Zongyi Li's GitHub repository.](https://github.com/ixScience/fourier_neural_operator/tree/master)
+The original code for this paper can be found on [ixScience's GitHub repository.](https://github.com/ixScience/fourier_neural_operator/tree/master)
 
 ### What the project does ### 
 The program allows one to ...
