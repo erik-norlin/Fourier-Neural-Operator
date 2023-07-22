@@ -1,7 +1,7 @@
 # Fourier-Neural-Operator
 
 ### Aim of this project ### 
-This has been a smaller scientific group project about investigating the resolution invariance of a Fourier neural operator (FNO) when predicting Navier-Stokes dynamics. The project is based on the paper [*Fourier Neural Operator For Parametric Partial Differential Equations*](https://arxiv.org/pdf/2010.08895.pdf) (Zongyi Li et al., 2021) and the original code for this paper can be found on [ixScience's GitHub repository.](https://github.com/ixScience/fourier_neural_operator/tree/master)
+This has been a smaller scientific group project about investigating the resolution invariance of a Fourier neural operator (FNO) when predicting Navier-Stokes dynamics. The project is based on the paper [*Fourier Neural Operator For Parametric Partial Differential Equations*](https://arxiv.org/pdf/2010.08895.pdf) (Zongyi Li et al., 2021) and the original code for this paper, that our implementation is heavily influenced by, can be found on [ixScience's GitHub repository.](https://github.com/ixScience/fourier_neural_operator/tree/master) 
 
 ### What the project does ###
 This project mainly allows you to predict how fluid flow evolves over time for different spatial resolutions using an already trained FNO. It is also possible to train your own FNO 
