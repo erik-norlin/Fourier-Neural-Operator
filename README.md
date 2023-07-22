@@ -25,7 +25,7 @@ Bicubic | FNO |
 ### What the project does ###
 With this implementation one can generate and/or convert data of fluid flows following with training and evaluating an FNO on desired spatial and temporal resolutions. The implementation purely as it is allows one to predict how fluid flow evolves over time for different spatial resolutions using our trained FNO.
 
-More specifically, the project comes with four scripts that allows you to
+More specifically, the project comes with four scripts that allows one to
 * Generate fluid flows of either .npy or .mat files (generate_NavierStokes_2d.ipynb)
 * Convert .mat files to .npy files (convert_dataset.ipynb)
 * Train and evaluate an FNO (main.ipynb)
