@@ -4,7 +4,7 @@
 This has been a smaller scientific research project about investigating the resolution invariance of a Fourier neural operator (FNO) when predicting Navier-Stokes dynamics. The project is based on the paper [*Fourier Neural Operator For Parametric Partial Differential Equations*](https://arxiv.org/pdf/2010.08895.pdf) (Zongyi Li et al., 2021) and the original code for this paper, that our implementation is heavily influenced by, can be found in [ixScience's GitHub repository.](https://github.com/ixScience/fourier_neural_operator/tree/master) 
 
 ### Aim of this project ### 
-
+The objective in this project was to investigate the resolution invariance of an FNO predicting fluid flows in two spatial dimensions given an initial sequence of discretizations described by the Navier−Stokes equations. To this end, an FNO was implemented and trained on a spatial resolution of 32 × 32, with the physical time 1 s between each frame. The FNO was then evaluated on a set of different resolutions, varying both spatially and temporally. Lastly, the spatial resolution invariance of the FNO was evaluated by comparing a high-resolution prediction with an upsampling of a low-resolution prediction using bicubic interpolation.
 
 ### What the project does ###
 This project mainly allows you to predict how fluid flow evolves over time for different spatial resolutions using an already trained FNO. It is also possible to train your own FNO 
