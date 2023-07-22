@@ -6,6 +6,8 @@ This has been a smaller scientific research project about investigating the reso
 ### Aim of this project ### 
 The objective in this project was to investigate the resolution invariance of an FNO predicting fluid flows in two spatial dimensions given an initial sequence of discretizations described by the Navier−Stokes equations. To this end, an FNO was implemented and trained on a spatial resolution of 32 × 32, with the physical time 1 s between each frame. The FNO was then evaluated on a set of different resolutions, varying both spatially and temporally. Lastly, the spatial resolution invariance of the FNO was evaluated by comparing a high-resolution prediction with an upsampling of a low-resolution prediction using bicubic interpolation.
 
+### Results ###
+
 ### What the project does ###
 This project mainly allows you to predict how fluid flow evolves over time for different spatial resolutions using an already trained FNO. It is also possible to train your own FNO 
 
@@ -21,7 +23,7 @@ The scripts are Jupyter Notebooks that you have to run through. In each of them 
 
 
 ### Requirements ###
-Some of these modules are already be built into Python.
+As mentioned before, the scripts are created in Jupyter Notebook. The following modules are requried to run the scripts.
 * cprofile
 * functools
 * lightning
