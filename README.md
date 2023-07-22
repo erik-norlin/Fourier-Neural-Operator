@@ -39,23 +39,7 @@ The scripts are Python Jupyter Notebooks that you have to run through. In each o
 Due to the large file sizes of the training data it can be found on [ixScience's Google Drive](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-). If you choose to download and use any their datasets make sure to put it in the */src/data/datasets* directory. Small datasets of fluid flows of spatial resoltions 32x32 and 128x128 with temporal resolution 1 s already exists in the datasets directory. These are for evaluating the FNO.
 
 ### Requirements ###
-As mentioned before, the scripts are created in Python Jupyter Notebook. The following modules are requried to run the scripts.
-* cprofile
-* functools
-* lightning
-* mat73
-* math
-* matplotlib
-* numpy
-* operator
-* pstats
-* scipy
-* snakeviz
-* timeit
-* torch
-* tqdm
-* wandb
-* yaml
+As mentioned before, the scripts are created in Python Jupyter Notebook. All modules requried to run the scripts are named in *requirements.txt*.
 
 ### Creators of this project ### 
 * Gustav Burman
