@@ -33,7 +33,7 @@ More specifically, the project comes with four scripts that allows one to
   
 ### How to run the project ### 
 
-The scripts are Jupyter Notebooks that you have to run through. In each of them there is a variable *$pathToProject* that is used to find and save files, assign this variable to the path of where you choose to download this repository ending with */Fourier-Neural-Operator*. In some scripts there is a variable *gpu*, set this to true if CUDA is available for faster computation. To train and evaluate an FNO, simply run through the main.ipynb script.
+The scripts are Jupyter Notebooks that you have to run through. In each of them there is a variable *$pathToProject* that is used to find and save files, assign this variable to the path of where you choose to download this repository ending with */Fourier-Neural-Operator*. In some scripts there is a variable *gpu*, set this to true if CUDA is available for faster computation. To train and/or evaluate the FNO, simply run through the main.ipynb script.
 
 ### Datasets ###
 Due to the large file sizes of the training data it can be found on [ixScience's Google Drive](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-). If you choose to download and use any their datasets make sure to put it in the */src/data/datasets* directory. Small datasets of fluid flows of spatial resoltions 32x32 and 128x128 with temporal resoluion 1 s already exists in the datasets directory. These are for evaluating the FNO.
