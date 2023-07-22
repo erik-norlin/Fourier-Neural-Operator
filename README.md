@@ -26,7 +26,7 @@ Bicubic | FNO |
 With this implementation one can generate and/or convert data of fluid flows to then train and evaluate an FNO on desired spatial and temporal resolutions. The implementation purely as it is allows one to predict how fluid flow evolves over time for different spatial resolutions using our trained FNO.
 
 More specifically, the project comes with four scripts that allows you to
-* Generate fluid flows of both .npy and .mat files (generate_NavierStokes_2d.ipynb)
+* Generate fluid flows of either .npy or .mat files (generate_NavierStokes_2d.ipynb)
 * Convert .mat files to .npy files (convert_dataset.ipynb)
 * Train and evaluate an FNO (main.ipynb)
 * Plot and create gifs of true and predicted fluid flows (plot.ipynb)
@@ -36,7 +36,7 @@ More specifically, the project comes with four scripts that allows you to
 The scripts are Jupyter Notebooks that you have to run through. In each of them there is a variable *$pathToProject* that is used to find and save files, assign this variable to the path of where you downloaded this repository. In some scripts there is a variable *gpu*, set this to true if CUDA is available for faster computation. To train and evaluate an FNO, simply run through the main.ipynb script.
 
 ### Datasets ###
-Due to the large file sizes of the training data it can be found on [ixScience's Google Drive](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-). If you choose to download and use any their datasets make sure to put it in the */src/data/datasets* directory.
+Due to the large file sizes of the training data it can be found on [ixScience's Google Drive](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-). If you choose to download and use any their datasets make sure to put it in the */src/data/datasets* directory. Small datasets of fluid flows of spatial resoltions 32x32 and 128x128 with temporal resoluion 1 s already exists in the datasets directory. These are for evaluating the FNO.
 
 ### Requirements ###
 As mentioned before, the scripts are created in Jupyter Notebook. The following modules are requried to run the scripts.
