@@ -16,7 +16,10 @@ We found that the FNO performed exceptionally well at predicting fluid flows of 
 
 Comparing our trained FNO with a bicubic interpolation it shows that our trained FNO performs better at upsampling spatial resolution.
 
-![](https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/src/fno/output-flows/1024x1024/1024x1024_bicubic_fno_comp.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/src/fno/output-flows/1024x1024/1024x1024_bicubic_fno_comp.gif">
+  <i> Prediction and ground truth of a flow with spatial resolution 1024x1024 and temporal resolution of 1 s.</i>
+</p>
 
 ## Implementation ##
 
