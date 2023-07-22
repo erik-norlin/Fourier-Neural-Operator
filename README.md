@@ -10,8 +10,8 @@ The objective in this project was to investigate the resolution invariance of an
 We found that the FNO performed exceptionally well at predicting fluid flows of higher spatial resolution than it was trained on. However, this was not the case for the temporal resolution because the error grew very quickly. 
 
 <p align="center">
-  ![](https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/src/fno/output-flows/1024x1024/1024x1024_pred_true.gif?raw=true)
-  Prediction and ground truth of a flow with spatial resolution 1024x1024 and temporal resolution of 1 s.
+  <img src="https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/src/fno/output-flows/1024x1024/1024x1024_pred_true.gif">
+  <textarea "Prediction and ground truth of a flow with spatial resolution 1024x1024 and temporal resolution of 1 s.">
 </p>
 
 Comparing our trained FNO with a bicubic interpolation it shows that our trained FNO performs better at upsampling spatial resolution.
