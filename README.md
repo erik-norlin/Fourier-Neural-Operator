@@ -22,7 +22,7 @@ Comparing our trained FNO with a bicubic interpolation it shows that our trained
 </p>
 
 <p align="center">
-  <img src="https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/report/report_images/fno_bicube_comp_confint.png" height="600" width="800">
+  <img src="https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/report/report_images/fno_bicube_comp_confint.png" height="624" width="832">
   <i> MAE from upsampling flows at different spatial resolutions using FNO and bicubic interpolation separately. The FNO performs better than bicubic interpolation at every resolution that was tested.</i>
 </p>
 
