@@ -1,0 +1,21 @@
+DATA_PATH: 'src/data/datasets/t1-t50VorticityZ-32x32-v1e-3-T50-N40.npy'
+
+batch_size: 10 # 7 is the maximum memory allows
+learning_rate: 0.001
+epochs: 500
+
+in_neurons: 20
+hidden_neurons: 20
+out_neurons: 20
+modesSpace: 8
+modesTime: 8
+timeDistribution: [0.2, 0.8]
+distribution: [0.8, 0.15, 0.05]
+time_padding: 8 # depends on timeDistribution, number of time steps to predict
+
+loss_function: 'MAE'
+
+n_restarts: 0 # For cosine annealing learning rate scheduling
+
+T: 40 # T=40 for V1e-3; T=20 for V1e-4; T=10 for V1e-5; (viscosities)
+
