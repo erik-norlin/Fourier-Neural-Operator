@@ -7,7 +7,7 @@ This has been a smaller scientific research project about investigating resoluti
 The objective in this project was to investigate the resolution invariance of an FNO predicting fluid flows in two spatial dimensions given an initial sequence of discretizations described by the Navier−Stokes equations. To this end, an FNO was implemented and trained on a spatial resolution of 32 × 32, with the physical time 1 s between each frame. The FNO was then evaluated on a set of different resolutions, varying both spatially and temporally. Lastly, the spatial resolution invariance of the FNO was evaluated by comparing a high-resolution prediction with an upsampling of a low-resolution prediction using bicubic interpolation.
 
 ### Results ###
-We found that the FNO performed exceptionally well at predicting fluid flows of higher spatial resolution than it was originally trained on. However, this was not the case for predicting higher temporal resolution because the error grew very quickly. 
+We found that the FNO performed exceptionally well at predicting fluid flows of higher spatial resolution than it was originally trained on. However, this was not the case for predicting higher temporal resolution. 
 
 <p align="center">
   <img src="https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/src/fno/output-flows/1024x1024/1024x1024_pred_true.gif">
