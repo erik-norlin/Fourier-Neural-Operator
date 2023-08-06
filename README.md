@@ -30,7 +30,7 @@ Comparing our trained FNO with a bicubic interpolation it shows that our trained
 ## Implementation ##
 
 ### What the project does ###
-With this implementation one can generate fluid flows of desired spatial and temporal resolution, then train and evaluate an FNO. The implementation purely as it is allows one to predict how fluid flow evolves over time for different spatial resolutions using our trained FNO.
+With this implementation one can generate fluid flows of two spatial spatial dimensons in any resolution both spatially and temporally, then train and evaluate an FNO from the generated data. The implementation as it is allows one to predict how fluid flow evolves over time for different spatial resolutions using our trained FNO.
 
 More specifically, the project includes four scripts that allows one to
 * Generate fluid flows of either .npy or .mat files ([generate_NavierStokes_2d.ipynb](https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/src/data/generate_NavierStokes_2d.ipynb))
@@ -39,7 +39,6 @@ More specifically, the project includes four scripts that allows one to
 * Plot and create gifs of true and predicted fluid flows ([plot.ipynb](https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/src/fno/output-flows/plot.ipynb))
   
 ### How to run the project ### 
-
 The scripts are Python Jupyter Notebooks that one has to run through. In each of them there is a variable *$pathToProject* that is used to find and save files. Assign this variable to the path of where you choose to download this repository ending with */Fourier-Neural-Operator*. In some scripts there is a variable *gpu*, set this to true if CUDA is available for faster computation. To train and/or evaluate the FNO, simply run through the *main.ipynb* script.
 
 ### Datasets ###
