@@ -18,7 +18,7 @@ Comparing our trained FNO with a bicubic interpolation it shows that our trained
 
 <p align="center">
   <img src="https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/src/fno/output-flows/1024x1024/1024x1024_bicubic_fno_comp.gif">
-  <i> The MAE from predicting and upsampling a flow (vorticity) 40 s into the future of spatial resolution 1024x1024 and temporal resolution of 1 s. Left is upsampling using bicubic interpolation and right is using an FNO (right).</i>
+  <i> The MAE from predicting a flow (vorticity) 40 s into the future of spatial resolution 1024x1024 and temporal resolution of 1 s. To the left is bicubic interpolation used to upsample a predicted downsample of the flow and to the right is using an FNO (right).</i>
 </p>
 
 <p align="center">
