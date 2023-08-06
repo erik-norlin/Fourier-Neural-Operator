@@ -45,7 +45,7 @@ The scripts are Python Jupyter Notebooks that one has to run through. In each of
 Data sets can either be found on [ixScience's Google Drive](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-) or generated with *generate_NavierStokes_2d.ipynb* (script from [ixScience](https://github.com/ixScience/fourier_neural_operator/blob/master/data_generation/navier_stokes/ns_2d.py)). If you choose to download and use any their datasets make sure to put it in the */src/data/datasets* directory. Small datasets of fluid flows of spatial resoltions 32x32 and 128x128 with temporal resolution 1 s already exists in the datasets directory. These are for evaluating the FNO.
 
 ### Requirements ###
-As mentioned before, the scripts are created in Python Jupyter Notebook. All modules requried to run the scripts are named in [*requirements.txt*](https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/requirements.txt ).
+Python Jupyter Notebook is needed. All modules requried to run the scripts are named in [*requirements.txt*](https://github.com/erik-norlin/Fourier-Neural-Operator/blob/main/requirements.txt ).
 
 ### Creators of this project ### 
 * Gustav Burman
